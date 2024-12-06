@@ -1,0 +1,328 @@
+.si-buttons-scifi__style-3__button-1 {  
+    --border-width: 1px;
+    --border-cut:4px;
+    --button-shape: polygon(0 var(--border-cut), var(--border-cut) 0, calc(50% - var(--border-cut) - 10px) 0%, calc(calc(50% - var(--border-cut) - 10px) + var(--border-cut)) var(--border-cut), calc(calc(50% - var(--border-cut) - 10px) + var(--border-cut) + 20px) var(--border-cut), calc(calc(50% - var(--border-cut) - 10px) + var(--border-cut) + 20px + var(--border-cut)) 0, calc(100% - var(--border-cut)) 0, 100% var(--border-cut), 100% calc(50% - var(--border-cut) - 5px), calc(100% - var(--border-cut)) calc(50% - var(--border-cut) - 5px + var(--border-cut)), calc(100% - var(--border-cut)) calc(50% - var(--border-cut) - 5px + var(--border-cut) + 10px), 100% calc(50% - var(--border-cut) - 5px + var(--border-cut) + 10px + var(--border-cut)), 100% calc(100% - var(--border-cut)), calc(100% - var(--border-cut)) 100%, calc(calc(50% - var(--border-cut) - 10px) + var(--border-cut) + 20px + var(--border-cut)) 100%, calc(calc(50% - var(--border-cut) - 10px) + var(--border-cut) + 20px) calc(100% - var(--border-cut)), calc(calc(50% - var(--border-cut) - 10px) + var(--border-cut)) calc(100% - var(--border-cut)), calc(calc(50% - var(--border-cut) - 10px)) 100%, var(--border-cut) 100%, 0 calc(100% - var(--border-cut)), 0 calc(calc(50% - var(--border-cut) - 5px) + var(--border-cut) + 10px + var(--border-cut)), var(--border-cut) calc(calc(50% - var(--border-cut) - 5px) + var(--border-cut) + 10px), var(--border-cut) calc(calc(50% - var(--border-cut) - 5px) + var(--border-cut)), 0 calc(calc(50% - var(--border-cut) - 5px)));
+  }
+  
+  .si-buttons-scifi__style-3__button-1 {
+    font-family: var(--font-family) ;
+    font-size: var(--font-size) ;
+    color: var(--color) !important ;
+    border: 0 ;
+    display: inline-flex ;
+    align-items: center ;
+    justify-content: center ;
+    justify-self: center ;
+    align-self: center ;
+    vertical-align: middle ;
+    appearance: none ;
+    box-sizing: border-box ;
+    text-decoration: none ;
+    position: relative ;
+    word-spacing: 3px ;
+    letter-spacing: 0.4px ;
+    cursor: pointer ;
+    transition: 0.3s ;
+    line-height: initial ;
+    min-height: 30px ;
+    min-width: 70px ;
+    white-space: nowrap ;
+    z-index: 1 ;
+    user-select: none ;
+    outline: 0 ;
+    padding: 15px 30px ;
+    background-color: transparent ;
+  }
+  
+  .si-buttons-scifi__style-3__button-1:before,
+  .si-buttons-scifi__style-3__button-1:after{
+    content: '';
+    inset: 0;
+    background: var(--border-color);
+    position: absolute;
+    z-index: -1;
+    clip-path: var(--button-shape);
+    box-shadow: inset 0 0 25px -10px var(--border-color);
+  }
+  
+  .si-buttons-scifi__style-3__button-1:after{
+    inset: var(--border-width);
+    background: var(--background-color);
+  }
+  
+  .si-buttons-scifi__style-3__button-1 helper-1{
+    content: '';
+    position: absolute;
+    inset: calc(var(--border-cut) /2);
+    background: var(--border-color);
+    z-index: -2;
+  }
+  
+  [class*='si-buttons-scifi'].disabled,
+  [class*='si-buttons-scifi']:disabled{
+    pointer-events:none;
+    opacity:0.5;
+    cursor:default;
+  }
+  .si-buttons-scifi__style-3__button-2 {
+    /* == BUTTON SETTINGS == */
+  
+    --border-width: 1px;
+    --border-cut:4px;
+    --button-shape: polygon(0 var(--border-cut), var(--border-cut) 0, calc(50% - var(--border-cut) - 10px) 0%, calc(calc(50% - var(--border-cut) - 10px) + var(--border-cut)) var(--border-cut), calc(calc(50% - var(--border-cut) - 10px) + var(--border-cut) + 20px) var(--border-cut), calc(calc(50% - var(--border-cut) - 10px) + var(--border-cut) + 20px + var(--border-cut)) 0, calc(100% - var(--border-cut)) 0, 100% var(--border-cut), 100% calc(50% - var(--border-cut) - 5px), 100% calc(100% - var(--border-cut)), calc(100% - var(--border-cut)) 100%, calc(calc(50% - var(--border-cut) - 10px) + var(--border-cut) + 20px + var(--border-cut)) 100%, calc(calc(50% - var(--border-cut) - 10px) + var(--border-cut) + 20px) calc(100% - var(--border-cut)), calc(calc(50% - var(--border-cut) - 10px) + var(--border-cut)) calc(100% - var(--border-cut)), calc(calc(50% - var(--border-cut) - 10px)) 100%, var(--border-cut) 100%, 0 calc(100% - var(--border-cut)));
+  }
+  
+  .si-buttons-scifi__style-3__button-2 {
+    font-family: var(--font-family) ;
+    font-size: var(--font-size) ;
+    color: var(--color) !important ;
+    border: 0 ;
+    display: inline-flex ;
+    align-items: center ;
+    justify-content: center ;
+    justify-self: center ;
+    align-self: center ;
+    vertical-align: middle ;
+    appearance: none ;
+    box-sizing: border-box ;
+    text-decoration: none ;
+    position: relative ;
+    word-spacing: 3px ;
+    letter-spacing: 0.4px ;
+    cursor: pointer ;
+    transition: 0.3s ;
+    line-height: initial ;
+    min-height: 30px ;
+    min-width: 70px ;
+    white-space: nowrap ;
+    z-index: 1 ;
+    user-select: none ;
+    outline: 0 ;
+    padding: 15px 30px ;
+    background-color: transparent ;
+  }
+  
+  .si-buttons-scifi__style-3__button-2:before,
+  .si-buttons-scifi__style-3__button-2:after{
+    content: '';
+    inset: 0;
+    background: var(--border-color);
+    position: absolute;
+    z-index: -1;
+    clip-path: var(--button-shape);
+    box-shadow: inset 0 0 25px -10px var(--border-color);
+  }
+  
+  .si-buttons-scifi__style-3__button-2:after{
+    inset: var(--border-width);
+    background: var(--background-color);
+  }
+  
+  .si-buttons-scifi__style-3__button-2 helper-1{
+    content: '';
+    position: absolute;
+    inset: calc(var(--border-cut) /2);
+    background: var(--border-color);
+    z-index: -2;
+  }
+  
+  [class*='si-buttons-scifi'].disabled,
+  [class*='si-buttons-scifi']:disabled{
+    pointer-events:none;
+    opacity:0.5;
+    cursor:default;
+  }
+
+  .si-buttons-scifi__style-3__button-3 {
+    /* == BUTTON SETTINGS == */
+  
+    --border-width: 1px;
+    --border-cut:4px;
+    --button-shape: polygon(0 var(--border-cut), var(--border-cut) 0, calc(100% - var(--border-cut)) 0, 100% var(--border-cut), 100% calc(50% - var(--border-cut) - 5px), calc(100% - var(--border-cut)) calc(50% - var(--border-cut) - 5px + var(--border-cut)), calc(100% - var(--border-cut)) calc(50% - var(--border-cut) - 5px + var(--border-cut) + 10px), 100% calc(50% - var(--border-cut) - 5px + var(--border-cut) + 10px + var(--border-cut)), 100% calc(100% - var(--border-cut)), calc(100% - var(--border-cut)) 100%, var(--border-cut) 100%, 0 calc(100% - var(--border-cut)), 0 calc(calc(50% - var(--border-cut) - 5px) + var(--border-cut) + 10px + var(--border-cut)), var(--border-cut) calc(calc(50% - var(--border-cut) - 5px) + var(--border-cut) + 10px), var(--border-cut) calc(calc(50% - var(--border-cut) - 5px) + var(--border-cut)), 0 calc(calc(50% - var(--border-cut) - 5px)));
+  }
+  
+  .si-buttons-scifi__style-3__button-3 {
+    font-family: var(--font-family) ;
+    font-size: var(--font-size) ;
+    color: var(--color) !important ;
+    border: 0 ;
+    display: inline-flex ;
+    align-items: center ;
+    justify-content: center ;
+    justify-self: center ;
+    align-self: center ;
+    vertical-align: middle ;
+    appearance: none ;
+    box-sizing: border-box ;
+    text-decoration: none ;
+    position: relative ;
+    word-spacing: 3px ;
+    letter-spacing: 0.4px ;
+    cursor: pointer ;
+    transition: 0.3s ;
+    line-height: initial ;
+    min-height: 30px ;
+    min-width: 70px ;
+    white-space: nowrap ;
+    z-index: 1 ;
+    user-select: none ;
+    outline: 0 ;
+    padding: 15px 30px ;
+    background-color: transparent ;
+  }
+  
+  .si-buttons-scifi__style-3__button-3:before,
+  .si-buttons-scifi__style-3__button-3:after{
+    content: '';
+    inset: 0;
+    background: var(--border-color);
+    position: absolute;
+    z-index: -1;
+    clip-path: var(--button-shape);
+    box-shadow: inset 0 0 25px -10px var(--border-color);
+  }
+  
+  .si-buttons-scifi__style-3__button-3:after{
+    inset: var(--border-width);
+    background: var(--background-color);
+  }
+  
+  .si-buttons-scifi__style-3__button-3 helper-1{
+    content: '';
+    position: absolute;
+    inset: calc(var(--border-cut) /2);
+    background: var(--border-color);
+    z-index: -2;
+  }
+  
+  [class*='si-buttons-scifi'].disabled,
+  [class*='si-buttons-scifi']:disabled{
+    pointer-events:none;
+    opacity:0.5;
+    cursor:default;
+  }
+
+  [class*='si-buttons-scifi'].disabled,
+  [class*='si-buttons-scifi']:disabled{
+    pointer-events:none;
+    opacity:0.5;
+    cursor:default;
+  }
+
+    /* Shine Animation */
+    [class*='si-buttons-scifi'] shine {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+        -webkit-clip-path: var(--button-shape);
+                clip-path: var(--button-shape);
+      }
+      
+      [class*='si-buttons-scifi'].disabled shine,
+      [class*='si-buttons-scifi']:disabled shine {
+        display: none;
+      }
+      
+      [class*='si-buttons-scifi'] shine:after {
+        content: '';
+        position: absolute;
+        inset: 0 auto 0 -70px;
+        width: 30px;
+        opacity: 0.8;
+        background: rgb(255, 255, 255);
+        transition: all .3s linear;
+        transform: skewX(-15deg) translateX(0);
+        animation: shine 3.5s ease-in-out infinite;
+      }
+      
+      [mode*='light'] shine:after {
+        opacity: 0.5;
+        background: var(--border-color);
+      }
+      
+      [class*='si-buttons-scifi']:hover shine:after {
+        animation: unset;
+      }
+      
+      @keyframes shine {
+        70% {left: -70px}
+        100% {left: calc(100% + 70px)}
+      }
+
+        /* Ripple Animation */
+  [class*='si-buttons-scifi'] ripple {
+    inset: 0;
+    position: absolute;
+    overflow: hidden;
+    -webkit-clip-path: var(--button-shape);
+            clip-path: var(--button-shape);
+  }
+  
+  [class*='si-buttons-scifi'].disabled ripple,
+  [class*='si-buttons-scifi']:disabled ripple{
+    display:none
+  }
+  
+  [class*='si-buttons-scifi'] ripple:after {
+    content: '';
+    --ripple-gradient: rgb(255, 255, 255);
+    position: absolute;
+    inset: 0 auto 0 -200%;
+    width: 200%;
+    transform: skewX(-20deg);
+    opacity: 0.5;
+    background-image: linear-gradient(to right, transparent, var(--ripple-gradient), transparent);
+  }
+  
+  [mode*='light'] ripple:after {
+    --ripple-gradient: var(--border-color);
+  }
+  
+  [class*='si-buttons-scifi']:hover ripple:after {
+    left: 200%;
+    transition: 1.6s ease;
+  }
+  
+  [class*='si-buttons-scifi'] ripple:before {
+    content: '';
+    --ripple-color: rgb(255, 255, 255);
+    position: absolute;
+    inset: 50%;
+    transform: skewX(-10deg);
+    border-radius: 100vh;
+  }
+  
+  [mode*='light'] ripple:before {
+    --ripple-color: var(--border-color);
+  }
+  
+  [class*='si-buttons-scifi']:focus ripple:before {
+    animation: ripple-animation 0.7s ease-in-out forwards;
+  }
+  
+  [class*='si-buttons-scifi']:active ripple:before {
+    animation: unset;
+  }
+  
+  @keyframes ripple-animation {
+    0% {box-shadow: 0 0 0 0 var(--ripple-color); opacity:0.6}
+    100% {box-shadow: 0 0 0 150px var(--ripple-color); opacity:0}
+  }
+
+  :root{
+    --primary-rgb:250, 1, 22;
+    --primary-main:#fa0116;
+    --primary-light:rgb(59, 194, 194);
+    --primary-dark:rgb(7, 125, 125);
+    --text-primary:#fff;
+    --text-secondary:rgba(255, 255, 255, 0.7);
+    --text-disabled:rgba(255, 255, 255, 0.5);
+    --background1:#17141d;
+    --background2:#1e1b24;
+    --outlined-background-color: #181818; 
+    --outlined-color: white
+  }
+
+  .css-1tls36q{--font-family:"Inter", sans-serif;--font-size:16px;--color:var(--outlined-color);--background-color:var(--outlined-background-color);--border-color:var(--primary-main);}
+  .css-rpcusm{padding-top:40px;padding-bottom:40px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;background-color:#1e1b24;}
+  .css-wugxrq{border-radius:8px;overflow:hidden;box-shadow:0 0 25px #0000000a;border:1px solid rgb(255 255 255 / 8%);border-width:1px 0 0 0;opacity:0;-webkit-animation:fadeInUp 0.4s forwards;animation:fadeInUp 0.4s forwards;}
